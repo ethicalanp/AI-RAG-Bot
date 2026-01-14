@@ -4,3 +4,4 @@ venv/
 ./chromadb/
 chromadb/
 chroma_db/
+chroma_ai/chroma.sqlite3
