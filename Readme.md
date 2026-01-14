@@ -1,5 +1,7 @@
 Agentic AI RAG Chatbot
 
+RAG Pipeline Flow And Architecture
+```mermaid
 flowchart TD
     A[Agentic AI PDF] --> B[PyPDFLoader]
     B --> C[Text Chunking]
@@ -14,7 +16,7 @@ flowchart TD
 
     J --> K[Streamlit UI]
     H --> K
-
+```
 
 A Retrieval-Augmented Generation (RAG) chatbot that answers questions strictly based on the Agentic AI eBook using:
 
@@ -32,7 +34,7 @@ pip install -r requirements.txt
 
 
 export GROQ_API_KEY="your_key_here"
-# Windows (PowerShell)
+
 setx GROQ_API_KEY "your_key_here"
 
 python ingest.py
