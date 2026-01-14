@@ -1,3 +1,6 @@
 .env
 .venv
 venv/
+./chromadb/
+chromadb/
+chroma_db/
